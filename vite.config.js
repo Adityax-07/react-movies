@@ -6,7 +6,9 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     allowedHosts: [
-      'g76qsn-5173.csb.app', // yeh host allow karna hai
+      'g76qsn-5173.csb.app',  // Codesandbox ka host
+      'localhost',           // local dev ke liye
+      '127.0.0.1',           // yeh host allow karna hai
     ],
   },
 })
